@@ -1,0 +1,12 @@
+# v1.0 atmospheres from David Burke, MODTRAN, March 1, 2010. 
+The atmospheres here were produced with MODTRAN by David Burke to 
+conform to typical conditions expected at LSST's site at Cerro Pachon. 
+Each atmosphere has similar ratios of water vapor, ozone, and scattering components,
+but different airmasses --- the airmass is represented by the number at the end
+of the filename. 
+For example: atmos_10.dat is a 1.0 airmass atmosphere, while atmos_25.dat is a 2.5 X atmos.
+
+atmos_std is a 'special' atmosphere that has been used to represent LSST's standard
+accepted atmosphere, and comes from observational data.
+It has slightly different components than the other atmospheres here, but is very similar. 
+It should be equivalent to the atmos_13.dat throughput. 

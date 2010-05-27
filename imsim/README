@@ -1,0 +1,25 @@
+This directory contains the throughput curves represented by the imsim images.
+
+The 'goal' directory contains the curves that the imsim is currently attempting to
+match. Because the imsim uses physics to reproduce some of these curves (such as the detector)
+the output from imsim's raytrace code will not match these curves exactly, but should be
+close. 
+
+Because of the need to match code to actual throughput, rather than just being
+able to substitute a different file, the imsim will potentially lag behind the 
+current "baseline" or various development curves. (thus the reason for this collection). 
+
+The 'actual' directory contains throughput curves produced by raytrace's efficiency.pro tool,
+which represent the actual throughput resulting from the image simulator.
+Note that this "actual" directory is an external checkout from imsims/trunk/tools/throughput 
+
+The actual raytrace code output will differ from the goal curves due to: 
+- atmosphere (imsim raytrace uses its own simulated atmosphere, and does so in a
+series of screens)
+- filter throughput (raytrace uses the actual incident angle of the photons to predict
+how they will travel through the filter, rather than just the response averaged over a 
+variety of incident angles - which is what is represented in these single curves - they are
+averaged to an incident angle of about 14 degrees)
+- detector sensitivity (raytrace simulates the detector's response to photons, along with
+various coatings on the detector surface). 
+
