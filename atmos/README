@@ -9,4 +9,4 @@ For example: atmos_10.dat is a 1.0 airmass atmosphere, while atmos_25.dat is a 2
 atmos_std is a 'special' atmosphere that has been used to represent LSST's standard
 accepted atmosphere, and comes from observational data.
 It has slightly different components than the other atmospheres here, but is very similar. 
-It should be equivalent to the atmos_13.dat throughput. 
+It should be equivalent to the atmos_12.dat throughput. 
