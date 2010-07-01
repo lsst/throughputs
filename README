@@ -1,0 +1,13 @@
+For "normal" LSST baseline evaluations, use the files in "baseline". 
+ y4 is now the baseline y filter, so is called simply 'y' in this directory. 
+
+For SRD evaluations of limiting magnitudes where X=1.0 is the desired atmosphere, use srd-1777. 
+
+The files in 'imsim' are related to the throughputs used in the imsim simulations. 
+
+Megacam and sdss should be self-explanatory. 
+
+The directory 'atmos' contains various airmass atmospheres. 
+
+More information is available in README files within each directory.
+
