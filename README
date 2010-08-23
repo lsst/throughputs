@@ -1,13 +1,25 @@
-For "normal" LSST baseline evaluations, use the files in "baseline". 
- y4 is now the baseline y filter, so is called simply 'y' in this directory. 
+For "normal" LSST baseline evaluations, use the files in "baseline".
+ y4 is now the baseline y filter, so is called simply 'y' in this
+ directory.  Note that while this is our current baseline performance,
+ it represents our current idealized view of LSST behavior and does
+ not include degradation of performance over time or with various
+ contaminants.
 
-For SRD evaluations of limiting magnitudes where X=1.0 is the desired atmosphere, use srd-1777. 
+For SRD evaluations of limiting magnitudes where X=1.0 is the desired
+atmosphere, use srd-1777.  This collection is identical to the
+baseline set, except for the atmosphere added to the total throughput
+(thus total throughput and atmosphere are different).
 
-The files in 'imsim' are related to the throughputs used in the imsim simulations. 
+The files in 'imsim' are related to the throughputs used in the imsim
+simulations. The 'goal' directory holds the throughputs used as goals
+for imsim development at the time of tagging (of this SVN directory),
+and the 'actual' directory holds the imsim actual throughputs, at the
+current time (as this is imported from the imsim directory).
 
-Megacam and sdss should be self-explanatory. 
+Megacam and sdss should be self-explanatory, but hold total system
+throughputs for megacam and SDSS, as published by those telescopes.
 
-The directory 'atmos' contains various airmass atmospheres. 
+The directory 'atmos' contains various airmass atmospheres.
 
 More information is available in README files within each directory.
 
