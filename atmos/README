@@ -10,3 +10,9 @@ atmos_std is a 'special' atmosphere that has been used to represent LSST's stand
 accepted atmosphere, and comes from observational data.
 It has slightly different components than the other atmospheres here, but is very similar. 
 It should be equivalent to the atmos_12.dat throughput. 
+
+atmos_12_hiwater.dat and atmos_12_lowater.dat are attempts (by Lynne Jones) to take the
+modtran outputs from David Burke and use these to munge a 30% higher and lower water component.
+These were created by taking the 1.0 and 1.6 airmass atmospheres and using the water components
+from those atmospheres instead of the water component from the 1.2 airmass atmosphere. 
+(this should probably be redone properly with MODTRAN). 
