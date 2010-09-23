@@ -1,6 +1,8 @@
 For "normal" LSST baseline evaluations, use the files in "baseline".
- y4 is now the baseline y filter, so is called simply 'y' in this
- directory.  Note that while this is our current baseline performance,
+
+ y4 is (for now) being used as the baseline y filter, so is also
+ linked to simply 'y' in this directory.  
+ Note that while this is our current baseline performance,
  it represents our current idealized view of LSST behavior and does
  not include degradation of performance over time or with various
  contaminants.
@@ -14,7 +16,7 @@ The files in 'imsim' are related to the throughputs used in the imsim
 simulations. The 'goal' directory holds the throughputs used as goals
 for imsim development at the time of tagging (of this SVN directory),
 and the 'actual' directory holds the imsim actual throughputs, at the
-current time (as this is imported from the imsim directory).
+current time (as this is imported from the imsim directory). 
 
 Megacam and sdss should be self-explanatory, but hold total system
 throughputs for megacam and SDSS, as published by those telescopes.
@@ -22,4 +24,7 @@ throughputs for megacam and SDSS, as published by those telescopes.
 The directory 'atmos' contains various airmass atmospheres.
 
 More information is available in README files within each directory.
+
+If you are only concerned with calculating expected magnitudes for LSST
+in various bandpasses, then you really only need the 'baseline' throughputs.
 
