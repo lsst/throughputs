@@ -1,7 +1,7 @@
-# $LastChangedRevision$
-# $Id$
-# Imsim goal throughputs, v1.0 (equivalent to Docushare 1089, v4, with update on lens 3)
-#wavelength(nm) Transmission(0-1)
+# $LastChangedRevision: 15148 $
+# $Id: lens2.dat 15148 2010-05-21 18:49:50Z ljones $
+# Docushare Collection-1777, V1, Date= March 1, 2010. 
+# Wavelength(nm)  Transmission(0-1)
 300 0.9677
 301 0.96702
 302 0.9665

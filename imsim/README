@@ -11,7 +11,6 @@ current "baseline" or various development curves. (thus the reason for this coll
 
 The 'actual' directory contains throughput curves produced by raytrace's efficiency.pro tool,
 which represent the actual throughput resulting from the image simulator.
-Note that this "actual" directory is an external checkout from imsims/trunk/tools/throughput 
 
 The actual raytrace code output will differ from the goal curves due to: 
 - atmosphere (imsim raytrace uses its own simulated atmosphere, and does so in a
