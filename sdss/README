@@ -1,1 +1,3 @@
-# SDSS throughput curves from http://www.sdss.org/dr3/instruments/imager/index.html#filters
+# SDSS throughput curves from http://www.sdss.org/instruments/camera/
+#  'sdss_*.dat' are the original Gunn curves
+#  'doi_*.dat' are the Doi et al 2010 curves (http://adsabs.harvard.edu/abs/2010AJ....139.1628D)
