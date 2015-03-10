@@ -1,16 +1,11 @@
 For "normal" LSST baseline evaluations, use the files in "baseline".
 
  y4 is (for now) being used as the baseline y filter, so is also
- linked to simply 'y' in this directory.  
+ linked to simply 'y' in this directory.
  Note that while this is our current baseline performance,
  it represents our current idealized view of LSST behavior and does
  not include degradation of performance over time or with various
  contaminants.
-
-For SRD evaluations of limiting magnitudes where X=1.0 is the desired
-atmosphere, use srd-1777.  This collection is identical to the
-baseline set, except for the atmosphere added to the total throughput
-(thus total throughput and atmosphere are different).
 
 The files in 'imsim' are related to the throughputs used in the imsim
 simulations. The 'goal' directory holds the throughputs used as goals
@@ -26,5 +21,5 @@ The directory 'atmos' contains various airmass atmospheres.
 More information is available in README files within each directory.
 
 If you are only concerned with calculating expected magnitudes for LSST
-in various bandpasses, then you really only need the 'baseline' throughputs.
+in various bandpasses, then you should use the 'baseline' throughputs.
 
