@@ -1,6 +1,6 @@
 # LSST Throughputs files created from syseng_throughputs repo
 # Version 1.0
-# sha1 ee701815d849111bd5321a9a1679aeb22588f971
+# sha1 f3b6989159aee9b52fe741c15d448bb60ed59c5a
 # Wavelength(nm)  Throughput(0-1)
 300.0 0.0
 300.1 0.0
@@ -6388,7 +6388,7 @@
 938.3 0.000811519306857
 938.4 0.000412703120417
 938.5 0.000207117166267
-938.6 0.0
+938.6 2.71050543121e-20
 938.7 0.0
 938.8 0.0
 938.9 0.0

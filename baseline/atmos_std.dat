@@ -1,6 +1,6 @@
 # LSST Throughputs files created from syseng_throughputs repo
 # Version 1.0
-# sha1 ee701815d849111bd5321a9a1679aeb22588f971
+# sha1 f3b6989159aee9b52fe741c15d448bb60ed59c5a
 
 # Aerosols added to atmosphere# Wavelength(nm)  Throughput(0-1)
 300.0 0.00676538546946
