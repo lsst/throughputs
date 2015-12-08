@@ -8,7 +8,8 @@ in the header of each throughput curve.
 The atmosphere files contain aerosols. The darksky file is zenith, dark sky,
 already appropriately normalized.
 
-The total_*.dat files contain the total system throughput, including atmosphere.
+The total_*.dat files contain the total system throughput, including atmosphere
+ (an X=1.2 atmosphere, including aerosols).
 The hardware_*.dat files contain the hardware throughput, without atmosphere.
 
 If you need individual components, the files
@@ -24,8 +25,6 @@ describe each stage of the hardware. Combine them all to recreate the hardware_*
 
 Add atmos_std.dat (an X=1.2) atmosphere to recreate the total_*.dat files.
 The atmos_10.dat represents an X=1.0 atmosphere.
+These two atmosphere files do contain aerosols.
 
-
--Lynne Jones lynnej@uw.edu
-
-
+-Lynne Jones @rhiannonlynne
