@@ -23,3 +23,8 @@ More information is available in README files within each directory.
 If you are only concerned with calculating expected magnitudes for LSST
 in various bandpasses, then you should use the 'baseline' throughputs.
 
+UPDATE: 12/18/2015
+Added throughputs for generic Johnson UBV and various other telescopes.
+
+Information on sources are all in headers for each throughput file.
+
