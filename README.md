@@ -1,8 +1,8 @@
 ## LSST Throughputs repository##
 
 This repository contains reference throughput curves from various
-surveys (Megacam, WISE, SDSS), together with the expected performance throughput curves for
-LSST.
+surveys (Megacam, WISE, SDSS, Johnson UBV and various other telescopes),
+together with the expected performance throughput curves for LSST.
 
 The LSST throughput curves are in [baseline](./baseline), with more
 information on the curves available there in that [README.md](./baseline/README.md).
@@ -20,9 +20,4 @@ without and with (the files ending with _aerosol.dat) aerosols.
 
 More information is available in README files within each directory.
 
-
-UPDATE: 12/18/2015
-Added throughputs for generic Johnson UBV and various other telescopes.
-
-Information on sources are all in headers for each throughput file.
 
