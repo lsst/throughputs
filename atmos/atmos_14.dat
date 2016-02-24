@@ -1,3 +1,5 @@
+# $LastChangedRevision$
+# $Id$
 # v1.0 atmospheres from David Burke, MODTRAN, March 1, 2010. 
 # Wavelength(nm)  Transmission(0-1)
 250 0.0
