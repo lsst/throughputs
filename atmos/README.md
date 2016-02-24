@@ -1,7 +1,8 @@
 # v1.0 atmospheres from David Burke, MODTRAN, March 1, 2010.
 
 The files here without _aerosol do NOT contain aerosols.
-The files ending with _aerosol.dat do include aerosols.
+The files ending with _aerosol.dat do include aerosols, added using
+the python script  lsst-pst/syseng_throughputs/python/addAerosols.py. 
 
 The atmospheres here were produced with MODTRAN by David Burke to
 conform to typical conditions expected at LSST's site at Cerro Pachon.
