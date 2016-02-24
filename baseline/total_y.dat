@@ -1,9 +1,9 @@
 # LSST Throughputs files created from syseng_throughputs repo
-# Version 1.0-14-g88542cc
-# sha1 88542cc462d5d2f9bd1055f5aa07cce1494a5971
+# Version 1.1
+# sha1 acd2b1389ef7356e2125ef6f9dc40a5ffe2af05b
 # Aerosols added to atmosphere
 # Wavelen_cutoff_BLUE 908.30
-# Wavelen_cutoff_RED 1099.70
+# Wavelen_cutoff_RED 1099.60
 # Wavelength(nm)  Throughput(0-1)
 300.0 0.0
 300.1 0.0
