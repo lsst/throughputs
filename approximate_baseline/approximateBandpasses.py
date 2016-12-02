@@ -1,25 +1,30 @@
+import os
 import numpy as np
-from lsst.sims.photUtils import BandpassDict
-
+from lsst.utils import getPackageDir
 
 def shorten_wavelengthRange(logthreshold=-250.):
     """
+    reads in the LSST 'total' bandpasses from the baseline directory
+    and only keeps those (wavelength, transmission) values for which
+    the transmission is below a given threshold
+
+    Parameters
+    ----------
+    logthreshold : float, defaults to -250.
+        threshold value such that if the log10(transmission) is less
+        than logthreshold
     """
-    bandpassdict = BandpassDict.loadTotalBandpassesFromFiles()
-    
-    for bn in bandpassdict.keys():
-        b = bandpassdict[bn]
-        mask = np.log10(b.sb) > logthreshold
-        minwave = b.wavelen[mask].min()
-        maxwave = b.wavelen[mask].max()
-        mask = (b.wavelen > minwave) & (b.wavelen < maxwave)
-        waves = b.wavelen[mask]
-        sb = b.sb[mask]
+    filedir = os.path.join(getPackageDir('throughputs'), 'baseline')
+
+    for bn in 'ugrizy':
         fname = 'total_{}.dat'.format(bn)
-        print(fname)
-        arr = np.zeros(shape=(len(waves), 2))
-        arr[:, 0] = waves
-        arr[:, 1] = sb
+        throughputfile = os.path.join(filedir, fname)
+        arr = np.loadtxt(throughputfile)
+        mask = np.log10(arr[:, 1]) > logthreshold
+        minwave = arr[:, 0][mask].min()
+        maxwave = arr[:, 0][mask].max()
+        mask = (arr[:, 0] > minwave) & (arr[:, 0] < maxwave)
+        arr = arr[mask]
         np.savetxt(fname, arr)
     
 
