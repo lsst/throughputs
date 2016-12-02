@@ -13,6 +13,8 @@ def shorten_wavelengthRange(logthreshold=-250.):
     logthreshold : float, defaults to -250.
         threshold value such that if the log10(transmission) is less
         than logthreshold
+    .. note: This mostly deals with the many consecutive zeros in the lsst
+    throughputs, a larger value of the logthreshold will make actual cuts
     """
     filedir = os.path.join(getPackageDir('throughputs'), 'baseline')
 
