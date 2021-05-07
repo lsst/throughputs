@@ -25,6 +25,14 @@ of this repository directly - the curves in the throughputs repository
 are constructed from these curves, and can be traced through the git
 SHA1 and release tags.
 
+# Release 1.7 #
+
+  The M2 reflectivity was updated based on witness sample measurements from M2 coating run in July 2019. The PR for this update is https://github.com/lsst-pst/syseng_throughputs/pull/12. The notebooks showing what has changed and the updated m5 calculations are found in the "documentation" subdirectory.
+
+# Release 1.6 #
+
+The mirror reflectivity was updated based on measurements from coating samples from June 2019. The PR for this update is https://github.com/lsst-pst/syseng_throughputs/pull/11. The notebooks showing what has changed and the updated m5 calculations are found in the "documentation" subdirectory.
+
 # Release 1.5 #
 
 This is a minor update for throughputs (the lens2 glass and BBAR coating curves
