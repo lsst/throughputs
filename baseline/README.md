@@ -55,6 +55,11 @@ The python code requires [rubin_sim](https://github.com/lsst/rubin_sim) to run.
 After installation of rubin_sim, install syseng_throughputs into the same python environment using
 ```pip install -e .```
 
+# Release 1.9 #
+
+This updates uses the same throughput components are previous versions, but moves from Al-Ag-Al mirror coatings to Ag-Ag-Ag (triple silver, or 3Ag) mirror coatings.
+This results in increased throughput in redder bands, at the cost of lower throughput in u band. However, since more survey time is spent in r and i bands (and redder bands in general) than u, the overall impact on survey efficiency is positive.
+
 # Release 1.8 #
 
 This update includes as-measured filter throughput curves and as-measured glass and coating measurements for the lenses.
