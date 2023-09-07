@@ -23,7 +23,6 @@ system - mirrors, lenses, filter, detector, and the zenith atmos_std.dat atmosph
 
 All curves are in nanometers, with throughput represented by a number between 0 and 1.
 
-### Information about the source of these files is available in README_SOURCE.md ###
 # syseng_throughputs #
 SysEng-approved LSST throughput curves
 The latest m5 depths are available in the notebooks, such as in [notebooks/Overview Paper.ipynb](./notebooks/Overview%20Paper.ipynb).
