@@ -1,4 +1,4 @@
-## LSST Throughputs repository##
+## LSST Throughputs repository ##
 
 This repository contains reference throughput curves from various
 surveys (Megacam, WISE, SDSS, Johnson UBV and various other telescopes),
